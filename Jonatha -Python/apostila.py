@@ -49,14 +49,51 @@
 #}
 #Jonatha ['peso']= '58,97' #MUDA A CHAVE SELECIONADA
 #print(Jonatha['nome'], Jonatha['idade'], Jonatha['peso'])
+
 #del Jonatha['cor']#DELETAR UMA CHAVE DO DICIONARIO
+
 #print(len(Jonatha))#VER A QUANTIDADE DE CHAVE DENTRO DO DICIONARIO
+
 #print('altura' in Jonatha)#VERIFICAR SE ESSA CHAVE EXISTE DENTRO DO DICIONARIO
+
 #for x in Jonatha:
  #print(x) #LER AS CHAVES DENTRO DO DICIONARIO (TEM QUE TER UM ESPAÇO DO PRINT ENTRE A BORDA DA PAG)
+
 #for x in Jonatha:
     #print(x+': '+Jonatha[x])#MOSTRA A CHAVE E VALOR
+
 #print(Jonatha.get('sobrenome', 'essa info n conta'))#LEVA UMA INFORMAÇÃO AO USUARIO SE A CHAVE EXISTE OU NÃO
 #print(Jonatha.get('status','essa info n conta'))
+
 #Jonatha.clear()#RETIRA TUDO DE DENTRO DO DICIONARIO
 #print(Jonatha)
+
+
+
+#A programação estruturada é uma abordagem que utiliza sequência, seleção (decisão) e repetição (loops) como principais estruturas de controle.
+#Basicamente é tipo a estrutura do VisualG e do HTML, 
+#Inicio
+#// Declaração de variáveis
+#inteiro a, b, soma
+#// Entrada de dados
+#ler(a)
+#ler(b)
+#// Processamento
+#soma = a + b
+#// Saída de dados
+#escrever("A soma de ", a, " e ", b, " é ", soma)
+#Fim
+
+#idade = int(input('digite sua idade: '))
+#if idade >= 18:
+ #print('Você é maior de idade')
+#else:
+ #print('Você é menor de idade')
+
+tamanho = float(input('digite sua altura: '))
+if tamanho > 1.70:
+ print('você é alto.')
+elif tamanho == 1.70:
+ print('você é alto.')
+else:
+ print('você é baixo.')
