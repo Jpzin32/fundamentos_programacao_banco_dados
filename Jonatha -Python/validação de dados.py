@@ -2,7 +2,7 @@ repetir = 's'
 fatura = []
 total = 0
 valid_preco = False
-while repetir == 's':
+while repetir <= 0:
     produto = input('digite o nome do produto: ')
 
 while valid_preco == False:
@@ -19,7 +19,7 @@ while valid_preco == False:
         print('Formato de preço invalído. Use apenas números e separe os centavos com "."')
         print('')
         fatura.append([produto, preco])
-        total += preco
+        total += preco+1
         valid_preco = False
         repetir = input('deseja comprar mais algum produto? (S ou N)').lower()
         print (' ')
